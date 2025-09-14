@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>samuraitravel</artifactId>
+	<artifactId>samuraitravel2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>samuraitravel</name>
+	<name>samuraitravel2</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -88,7 +88,7 @@
 		<dependency>
             <groupId>com.stripe</groupId>
             <artifactId>stripe-java</artifactId>
-            <version>28.2.0</version>
+            <version>29.5.0</version>
         </dependency>   
 	</dependencies>
 

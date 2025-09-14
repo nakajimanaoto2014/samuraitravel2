@@ -22,7 +22,7 @@ public class WebSecurityConfig {
 					.requestMatchers("/css/**" , "/images/**" , "/js/**" ,
 									"/storage/**" , "/" , "/signup/**" ,
 									"/houses" , "/houses/{id}",
-									"/strips/webhook").permitAll()			           //すべてのユーザーにアクセスを許可するURL
+									"/stripe/webhook").permitAll()			           //すべてのユーザーにアクセスを許可するURL
 					
 					.requestMatchers("/admin/**").hasRole("ADMIN")                     //管理者にのみアクセスを許可するURL
 					
